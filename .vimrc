@@ -12,10 +12,12 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
 Plugin 'PyChimp'
+Plugin 'quanganhdo/grb256'
 Plugin 'Highlight-UnMatched-Brackets'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'python.vim'
+Plugin 'instant-markdown.vim'
 Bundle 'Valloric/YouCompleteMe'
 
 call vundle#end()            " required
