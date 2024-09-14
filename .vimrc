@@ -7,9 +7,11 @@ Plugin 'VundleVim/Vundle.vim'
 
 # GIT
 Plugin 'tpope/vim-fugitive'
+
+# HTML
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
-#Status bar
+# Status bar
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
