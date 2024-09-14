@@ -5,10 +5,15 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
+# GIT
 Plugin 'tpope/vim-fugitive'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+
+#Status bar
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+
+# FS tree
 Plugin 'scrooloose/nerdtree'
 Plugin 'Highlight-UnMatched-Brackets'
 Plugin 'vim-scripts/indentpython.vim'
