@@ -1,21 +1,21 @@
-filetype off                  " required
+filetype off                  " required                                                                                                                                                                          
 
 set shell=/bin/bash
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
-# GIT
+" GIT
 Plugin 'tpope/vim-fugitive'
 
-# HTML
+" HTML
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
-# Status bar
+" Status bar
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-# FS tree
+" FS tree
 Plugin 'scrooloose/nerdtree'
 Plugin 'Highlight-UnMatched-Brackets'
 Plugin 'vim-scripts/indentpython.vim'
