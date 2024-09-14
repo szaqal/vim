@@ -6,7 +6,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'tpope/vim-fugitive'
-Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -18,12 +17,15 @@ Plugin 'vim-scripts/indentpython.vim'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'python.vim'
 Plugin 'instant-markdown.vim'
+Plugin 'davidhalter/jedi-vim'
 Bundle 'Valloric/YouCompleteMe'
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 syntax enable
+colorscheme evening
 
 set number 
 set cursorline
